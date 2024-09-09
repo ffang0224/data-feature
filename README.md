@@ -33,3 +33,7 @@ params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":<strong>f
 </code><br><br>
 Change the "fruit" variable into a string of your preferred fruit/ingredient. For example: <br><br>
 <code>params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":<strong>"apple"</strong>}</code>
+<br>
+<br>
+
+![output](./image.png)

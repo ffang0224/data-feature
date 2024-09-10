@@ -40,7 +40,7 @@ Run the notebook as displayed in GitHub. Keys are provided.<br>For custom search
 params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":<strong>fruit</strong>} 
 </code><br><br>
 Change the "fruit" variable into a string of your preferred fruit/ingredient. For example: <br><br>
-<code>params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":<strong>"apple"</strong>}</code>
+<code>params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":<strong>"mango"</strong>}</code>
 <br>
 <br>
 

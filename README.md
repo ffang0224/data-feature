@@ -7,7 +7,7 @@ This Google Collab notebook demonstrates a data feature combining data from 2 AP
 <ul>
 <li>Recipes are provided with their URI, name, ingredients and image.
 <li>The basic implementation shown in current code provides a random fruit each time the code is compiled.
-<li>The code will display a Pandas DataFrame containing all recipes that contain the current fruit selected.
+<li>The code will display a list containing all recipes that contain the current fruit selected.
 </ul>
 
 <h2>Implementation</h2>
@@ -16,6 +16,14 @@ First, we decided to utilize the two APIs mentioned because there was an opportu
 Following this idea, we requested the API keys for Edamam by creating an account. With the account ID and key, we were able to access the data. Once obtained, we accessed the FruityVice API to provide a list of all fruits in the database.
 <br>
 Finally, we chose a random fruit and sent it as a parameter for the search inside the Edamam recipe search, which returned all recipes associated (searches in recipe name & tags linked to the recipe).
+<br>
+Additional libraries/modules used include:
+<ul>
+<li>Pandas (optional)</li>
+<li>Pillow (PIL)</li>
+<li>Requests (API Access)</li>
+<li>Python JSON module</li>
+</ul>
 
 <h2>API details</h2>
 <ul>
